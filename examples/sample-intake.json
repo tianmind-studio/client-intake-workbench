@@ -1,0 +1,41 @@
+{
+  "customer": {
+    "code": "C0001",
+    "name": "Demo Client",
+    "contact": "demo@example.com",
+    "source": "WeChat",
+    "status": "active"
+  },
+  "intake": {
+    "intakeNo": "C0001-R001",
+    "source": "chat paste",
+    "projectType": "website backend",
+    "deliveryTarget": "course project demo",
+    "requestDetail": "Build a simple admin dashboard and provide a deployable demo.",
+    "existingMaterials": "Reference screenshots, old source zip, database export.",
+    "deadline": "next Friday",
+    "budgetRange": "to be confirmed",
+    "riskLevel": "medium",
+    "missingInformation": [
+      "final acceptance criteria",
+      "server access",
+      "whether source code must be delivered"
+    ],
+    "nextAction": "Ask for source zip, database file, and target demo screenshots.",
+    "confirmationMessage": "I will check the source files, database, and expected demo effect first, then confirm the quote and timeline so the scope stays clear."
+  },
+  "project": {
+    "projectNo": "C0001-P001",
+    "status": "preparing",
+    "quoteAmount": null,
+    "isPaid": false,
+    "deliveryChecklist": [
+      "source code",
+      "local run instructions",
+      "deployment notes",
+      "demo screenshots"
+    ],
+    "acceptanceCriteria": "The demo can run locally and the agreed admin pages are visible."
+  }
+}
+
