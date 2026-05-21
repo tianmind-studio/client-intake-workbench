@@ -73,6 +73,7 @@ Public:
 Private:
 
 - Raw customer chats.
+- No raw private conversations.
 - Customer names, schools, companies, phone numbers, WeChat IDs, account screenshots, contracts, sensitive commercial records, databases, API keys, and production `.env` files.
 - Private backend URLs, full private vault content, Hermes or safe-index configuration.
 
